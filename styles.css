@@ -13,6 +13,7 @@ body, main, footer {
 /*body*/
 body {
     background-color: hsl(0, 0%, 8%);;
+    font-family: "Inter", sans-serif;
 }
 
 /*main content*/
@@ -36,7 +37,30 @@ footer {
 }
 
 .link-container {
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 10px;
+    width: 80%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+}
 
+.link-button {
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 10px;
+    width: 80%;
+    height: 3rem;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link-button a {
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
 }
 
 .attribution { 
